@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Raleway;
+    src: url("../font/raleway/static/Raleway-Regular.ttf");
+}
+header, footer{
+    font-family: Raleway;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+}
+.body{
+    background-color: rgb(45, 139, 45);
+    
+}
+header{
+    background-color: rgb(45, 139, 45);
+    padding: 20px 40px;
+}
+main{
+    
+    margin: 20px 40px;
+}
+header div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    background-color:rgb(48, 45, 45) ;
+}
+main button{
+    padding: 5px 60px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: rgb(41, 100, 41);
+    color: white;
+}
+#but{
+    padding: 5px 60px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: rgb(41, 100, 41);
+    background-color: white;
+}
+main p{
+    width: 500px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 600px;
+    margin: 0 auto;
+}
+.login input{
+    padding: 5px;
+    border-radius: 10px;
+}
+main{
+    min-height: 782px;
+}
+footer{
+    color: white;
+    padding: 20px 40px;
+}
+.body main{
+    color: white;
+}
+.green{
+    color: rgb(41, 100, 41);
+}
+.zayavk{
+    display: grid;
+    gap: 10px;
+}
+.zayavka{
+    padding: 10px;
+    border: 1px solid gray;
+    color: rgb(112, 173, 21);
+}
+
+
